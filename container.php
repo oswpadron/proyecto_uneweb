@@ -9,14 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="http://www.baulphp.com" class="navbar-brand">oswpadron</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="http://www.baulphp.com">Chat On Line</a></li>
-           
-          </ul>
-         
+          <p class="navbar-brand">oswpadron</p>
         </div><!--/.nav-collapse -->
       </div>
     </div>

@@ -3,7 +3,7 @@ class Chat{
     private $host  = 'localhost';
     private $user  = 'root';
     private $password   = "";
-    private $database  = "php_chat";      
+    private $database  = "chat_users";      
     private $chatTable = 'chat';
 	private $chatUsersTable = 'chat_users';
 	private $chatLoginDetailsTable = 'chat_login_details';

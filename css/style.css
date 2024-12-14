@@ -3,13 +3,13 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #c8e8d6;
+  background: #6e0000;
   font-family: "proxima-nova", "Source Sans Pro", sans-serif;
   /*font-size: 1em;*/
   letter-spacing: 0.1px;
-  color: #32465a;
+  color: #000000;
   text-rendering: optimizeLegibility;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-shadow: 1px 1px 1px #ffffff01;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -20,7 +20,7 @@
   height: 92vh;
   min-height: 300px;
   max-height: 720px;
-  background: #E6EAEA;
+  background: #ff9640;
 }
 @media screen and (max-width: 360px) {
   #frame {
@@ -34,8 +34,8 @@
   max-width: 340px;
   width: 40%;
   height: 100%;
-  background: #2c3e50;
-  color: #f5f5f5;
+  background: #ff9640;
+  color: #000000;
   overflow: hidden;
   position: relative;
 }
@@ -54,7 +54,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 5px 0 0 0;
-    background: #32465a;
+    background: #ff0000;
   }
 }
 #frame #sidepanel #profile.expanded .wrap {
@@ -90,7 +90,7 @@
   width: 50px;
   border-radius: 50%;
   padding: 3px;
-  border: 2px solid #e74c3c;
+  border: 2px solid #ffcdc8;
   height: auto;
   float: left;
   cursor: pointer;
@@ -254,7 +254,7 @@
   background: #e74c3c;
 }
 #frame #sidepanel #profile .wrap #status-options ul li#status-busy.active span.status-circle:before {
-  border: 1px solid #e74c3c;
+  border: 1px solid #ff7300;
 }
 #frame #sidepanel #profile .wrap #status-options ul li#status-offline span.status-circle {
   background: #95a5a6;
@@ -284,7 +284,7 @@
 }
 #frame #sidepanel #profile .wrap #expanded input:focus {
   outline: none;
-  background: #435f7a;
+  background: #0184ff;
 }
 #frame #sidepanel #search {
   border-top: 1px solid #32465a;
@@ -397,7 +397,7 @@
   background: #f1c40f;
 }
 #frame #sidepanel #contacts ul li.contact .wrap span.busy {
-  background: #e74c3c;
+  background: #ffffff;
 }
 #frame #sidepanel #contacts ul li.contact .wrap span.unread {
    background:red;  

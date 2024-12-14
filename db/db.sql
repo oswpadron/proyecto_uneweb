@@ -1,5 +1,5 @@
 CREATE TABLE `chat_users` (
-`userid` int(11) NOT NULL,
+`userid` int(11) NOT NULL AUTO_INCREMENT, 
 `username` varchar(255) NOT NULL,
 `password` varchar(255) NOT NULL,
 `avatar` varchar(255) NOT NULL,
