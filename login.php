@@ -19,10 +19,10 @@ if (!empty($_POST['username']) && !empty($_POST['pwd'])) {
 }
 
 ?>
-<title>Sistema de chat en vivo con Ajax, PHP y MySQL</title>
+<title>Sistema de chat en vivo con PHP y MySQL</title>
 <?php include('container.php');?>
 <div class="container">		
-	<h2>Sistema de chat en vivo con Ajax, PHP y MySQL</h1>		
+	<h2>Sistema de chat en vivo con PHP y MySQL</h1>		
 	<div class="row">
 		<div class="col-sm-4">
 			<h4>Chat Login:</h4>		
@@ -41,11 +41,9 @@ if (!empty($_POST['username']) && !empty($_POST['pwd'])) {
 					<input type="password" class="form-control" name="pwd" required>
 				</div>  
 				<button type="submit" name="login" class="btn btn-info">Iniciar Sesion</button>
+				<p><a href="./signup.php">Registrate aquí!</a><p>
 			</form>
 			<br>
-			<p><b>Usuario</b> : jorge<br><b>Password</b> : root</p>
-			<p><b>Usuario</b> : maria<br><b>Password</b> : 12345</p>
-
 		</div>
 		
 	</div>
