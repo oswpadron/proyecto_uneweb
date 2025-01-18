@@ -12,6 +12,7 @@ include('header.php');
     margin: 30px auto;	
 }
 </style>
+</head>
 <div class="container">				
 	<?php if(isset($_SESSION['userid']) && $_SESSION['userid']) { ?> 	
 		<div class="chat">	

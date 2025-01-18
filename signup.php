@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0">
+<?php 
+include('header.php');
+?>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+<link href="css/style.css" rel="stylesheet">
+<script src="js/chat.js"></script>
+<style>
+.modal-dialog {
+    width: 400px;
+    margin: 30px auto;	
+}
+</style>
 <title>Sign Up</title>
-<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <form method="post" action="./signup_logica.php">
