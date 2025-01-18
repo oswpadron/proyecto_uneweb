@@ -4,7 +4,7 @@ include('header.php');
 ?>
 <title>THE ORANGE BUBBLE</title>
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
-<link href="css/style.css" rel="stylesheet" id="bootstrap-css">
+<link href="css/style.css" rel="stylesheet">
 <script src="js/chat.js"></script>
 <style>
 .modal-dialog {
@@ -12,10 +12,7 @@ include('header.php');
     margin: 30px auto;	
 }
 </style>
-<?php include('container.php');?>
-<div class="container">		
-	<h1>THE ORANGE BUBBLE</h1>		
-	<br>		
+<div class="container">				
 	<?php if(isset($_SESSION['userid']) && $_SESSION['userid']) { ?> 	
 		<div class="chat">	
 			<div id="frame">		
@@ -47,9 +44,8 @@ include('header.php');
 					echo '</div>';
 					?>
 					</div>
-					<div id="search">
-						<label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
-						<input type="text" placeholder="Buscar Contactos..." />					
+					<div id="contact-section">
+						<span class="icon-contact"><i class="fa fa-user" aria-hidden="true"></i> Contactos</span>				
 					</div>
 					<div id="contacts">	
 					<?php
@@ -77,10 +73,6 @@ include('header.php');
 					}
 					echo '</ul>';
 					?>
-					</div>
-					<div id="bottom-bar">	
-						<button id="addcontact"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i> <span>Agregar Contactos</span></button>
-						<button id="settings"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> <span>Configuracion</span></button>					
 					</div>
 				</div>			
 				<div class="content" id="content"> 
@@ -115,10 +107,6 @@ include('header.php');
 			</div>
 		</div>
 	<?php } else { ?>
-		<br>
-		<br>
 		<strong><a href="login.php"><h3>Acceder al Chat</h3></a></strong>		
 	<?php } ?>
-	<br>
-	<br>
 <?php include('footer.php');?>
