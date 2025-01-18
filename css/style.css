@@ -777,3 +777,21 @@ ol, ul {
   justify-content: center;
 }
 
+h3 {
+  color: #000000;
+
+}
+
+.logout-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #6e0000;
+}
+
+.logout-section strong {
+  background-color: #f1c40f;
+  padding: 1em 1em;
+  border:  0.5rem solid #000000;
+}

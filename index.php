@@ -107,6 +107,8 @@ include('header.php');
 			</div>
 		</div>
 	<?php } else { ?>
-		<strong><a href="login.php"><h3>Acceder al Chat</h3></a></strong>		
+		<div class="logout-section">
+			<strong><a href="login.php"><h3>Acceder al Chat</h3></a></strong>
+		</div>			
 	<?php } ?>
 <?php include('footer.php');?>

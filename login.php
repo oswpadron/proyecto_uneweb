@@ -19,9 +19,9 @@ if (!empty($_POST['username']) && !empty($_POST['pwd'])) {
 }
 
 ?>
-<title>Sistema de chat en vivo con PHP y MySQL</title>
+<title>THE ORANGE BUBBLE</title>
 <div class="container">		
-	<h2>Sistema de chat en vivo con PHP y MySQL</h1>		
+	<h2>THE ORANGE BUBBLE</h1>		
 	<div class="row">
 		<div class="col-sm-4">
 			<h4>Chat Login:</h4>		
