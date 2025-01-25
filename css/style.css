@@ -629,7 +629,7 @@
   width: calc(100% - 90px);
   padding: 11px 32px 10px 8px;
   font-size: 0.8em;
-  color: #32465a;
+  color: #ffffff;
 }
 @media screen and (max-width: 735px) {
   #frame .content .message-input .wrap input {
@@ -799,6 +799,9 @@ h3 {
 body {
   background-color: #6e0000;
   color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
 }
 
 input {
@@ -806,6 +809,28 @@ input {
   background-color: #435f7a;
 }
 
-form {
-  display: table-caption;
+.container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
 }
+
+.login-form {
+  width: 24%;
+}
+
+.iniciar-sesion-btn {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.signup-link {
+  color: white;
+  font-weight: bold;
+}
+
+.signup-link:hover {
+  color: white;
+  font-weight: bolder;
+}  

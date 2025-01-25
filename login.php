@@ -34,9 +34,9 @@ if (!empty($_POST['username']) && !empty($_POST['pwd'])) {
 ?>
 <title>THE ORANGE BUBBLE</title>
 <div class="container">		
-	<h2>THE ORANGE BUBBLE</h1>		
-	<div class="row">
-		<div class="col-sm-4">
+	<h1>THE ORANGE BUBBLE</h1>		
+	<div class="row login-form">
+		<div>
 			<h4>Chat Login:</h4>		
 			<form method="post">
 				<div class="form-group">
@@ -52,8 +52,8 @@ if (!empty($_POST['username']) && !empty($_POST['pwd'])) {
 					<label for="pwd">Contraseña:</label>
 					<input type="password" class="form-control" name="pwd" required>
 				</div>  
-				<button type="submit" name="login" class="btn btn-info">Iniciar Sesion</button>
-				<p><a href="./signup.php">Registrate aquí!</a><p>
+				<button type="submit" name="login" class="btn btn-info iniciar-sesion-btn">Iniciar Sesión</button>
+				<p><a class="signup-link" href="./signup.php">Registrate aquí!</a></p>
 			</form>
 			<br>
 		</div>
@@ -61,9 +61,3 @@ if (!empty($_POST['username']) && !empty($_POST['pwd'])) {
 	</div>
 </div>	
 <?php include('footer.php');?>
-
-
-
-
-
-
