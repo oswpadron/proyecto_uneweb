@@ -6,7 +6,7 @@ die('Error de Conexión (' . mysqli_connect_errno() . ') '
 }
 $sql="INSERT INTO chat_users (`username`, `password`, `avatar`, `current_session`, `online`) VALUES
 ('$_POST[nombre]','$_POST[password]', 'user1.jpg', 0, 0)";
-$result = mysqli_query($link, $sql); //ejecuto la consulta
+$result = mysqli_query($link, $sql);
 if (!mysqli_error($link)) {
 ?>
 <script>

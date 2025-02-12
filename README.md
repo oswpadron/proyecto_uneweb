@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./fotochat.png)
 
 Additional description about the project and its features.
 
@@ -43,11 +43,10 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Arístides José Molina Pérez**
+👤 **Oswaldo Padrón Escobar**
 
-- GitHub: [@aristides1000](https://github.com/aristides1000)
-- Twitter: [@aristides_1000](https://twitter.com/aristides_1000)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aristides-molina/)
+- GitHub: [@oswpadron](https://github.com/oswpadron)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oswaldo-padron/)
 
 👤 **Author2**
 
@@ -59,7 +58,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/oswpadron/proyecto_uneweb/issues).
 
 ## Show your support
 

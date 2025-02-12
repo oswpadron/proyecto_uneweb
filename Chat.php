@@ -24,7 +24,6 @@ class Chat{
 			die('Error in query: '. mysqli_error($conn));
 		}
 		$data= array();
-		/*while ($row = mysqli_fetch_array($result, MYSQL_ASSOC)) {*/
 		while ($row = mysqli_fetch_assoc ($result)) {
 			$data[]=$row;            
 		}
@@ -209,3 +208,4 @@ class Chat{
 	}	
 }
 ?>
+
